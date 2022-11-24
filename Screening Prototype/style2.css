@@ -1,0 +1,62 @@
+body {
+  /* background-color: rgb(249, 101, 48); */
+  background: url(WhatsApp\ Image\ 2022-11-20\ at\ 23.12.38.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*inserting background image*/
+
+  background-size: cover;
+}
+
+.instruction {
+  background-color: rgb(1, 110, 1);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  border: 1px solid #051e43;
+  border-radius: 24px;
+}
+
+.form {
+  width: 800px;
+  padding: 30px;
+  margin-top: 25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: grey;
+  background: rgba(0, 0.8, 1, 0.8);
+  text-align: center;
+}
+
+.documents {
+  color: aliceblue;
+}
+
+.documents h2,
+h5 {
+  text-transform: uppercase;
+}
+
+.form input[type="text"] {
+  /* designing the input fields */
+
+  border: none;
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+
+  border: 3px solid #051e43;
+  padding: 7px 5px;
+  width: 220px;
+  outline: none;
+  /* color: white; */
+  border-radius: 24px;
+  transition: 0.25px;
+}
+
+.form input[type="submit"]:hover {
+  background: #ffc400ec;
+}

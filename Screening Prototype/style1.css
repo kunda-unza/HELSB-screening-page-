@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(background\ 2.jpeg); /*inserting background image*/
+
+  background-size: cover;
+}
+.box {
+  width: 300px; /*setting the box specification where the username and password will sit*/
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  /*setting the password login details*/
+
+  border: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+
+  border: 3px solid #3371cd;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  /* color: white; */
+  border-radius: 24px;
+  transition: 0.25px;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  /*to enlarge text when it is clicked */
+  width: 270px;
+  border-color: #ffc400ec;
+}
+
+.box input[type="submit"]                /*creating the submit botton details*/ {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #3371cd;
+  padding: 14px 35px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+  cursor: pointer;
+}
